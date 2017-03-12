@@ -63,13 +63,13 @@ font = ImageFont.load_default()
 draw = ImageDraw.Draw(image)
 
 # Define text and get total width.
-text = 'SSD1306 ORGANIC LED DISPLAY. THIS IS AN OLD SCHOOL DEMO SCROLLER!! GREETZ TO: LADYADA & THE ADAFRUIT CREW, TRIXTER, FUTURE CREW, AND FARBRAUSCH'
+text = 'DICKBUTT DICKBUTT DICKBUTT DICKBUTT DICKBUTT DICKBUTT DICKBUTT DICKBUTT DICKBUTT DICKBUTT DICKBUTT DICKBUTT'
 maxwidth, unused = draw.textsize(text, font=font)
 
 # Set animation and sine wave parameters.
 amplitude = height/4
 offset = height/2 - 4
-velocity = -2
+velocity = -3
 startpos = width
 
 # Animate text moving in sine wave.

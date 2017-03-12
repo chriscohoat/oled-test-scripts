@@ -20,7 +20,8 @@ disp.begin()
 disp.clear()
 disp.display()
 
-image = Image.open('test.png').resize((disp.width, disp.height), Image.ANTIALIAS).convert('1')
+# image = Image.open('test.png').resize((disp.width, disp.height), Image.ANTIALIAS).convert('1')
+image = Image.open('test.png').convert('1')
 
 # Display image.
 disp.image(image)
